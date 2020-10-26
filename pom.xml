@@ -35,21 +35,3 @@
     </plugins>
   </build>
   
-<settings>
-  <pluginGroups>
-    <pluginGroup>org.sonarsource.scanner.maven</pluginGroup>
-  </pluginGroups>
-  <profiles>
-    <profile>
-      <id>sonar</id>
-      <activation>
-        <activeByDefault>true</activeByDefault>
-      </activation>
-      <properties>
-        <sonar.projectName>Apache James</sonar.projectName>
-        <sonar.projectVersion>master</sonar.projectVersion>
-      </properties>
-    </profile>
-  </profiles>
-</settings>
-</project>
